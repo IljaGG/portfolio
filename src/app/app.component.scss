@@ -1,0 +1,47 @@
+.backgroundcolor-container {
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+h1 {
+    color: white;
+    font-size: 64px;
+    .span1 {
+        color: rgb(237, 59, 88);
+    }
+    .span2 {
+        color: rgb(111, 248, 217);
+    }
+}
+
+.contact-btn {
+    width: 109px;
+    background-color: black;
+    border: 2px solid rgb(111, 248, 217);
+    color: rgb(111, 248, 217);
+    text-align: center;
+    padding: 10px 25px 10px 25px;
+    cursor: pointer;
+    font-size: 13px;
+
+    &:hover {
+        background-color: rgb(111, 248, 217);
+        border: 2px solid rgb(111, 248, 217);
+        color: white;
+    }
+}
+
+.ilja-photo {
+    border-radius: 143px;
+    width: 269px;
+    height: 254px;
+}
